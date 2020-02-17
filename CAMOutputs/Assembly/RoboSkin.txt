@@ -1,0 +1,10 @@
+Partlist exported from /home/shivababa/EAGLE/projects/Robo/RoboSkin.sch at 2/17/20 12:14 PM
+
+Qty Value     Device                Package              Parts  Description                                             PROD_ID    VALUE
+1             QWIIC_CONNECTORJS-1MM 1X04_1MM_RA          J4     SparkFun I2C Standard Qwiic Connector                   CONN-13694      
+2   0.1uF     0.1UF-100V-10%(0603)  0603-CAP             C3, C4 CAP-08390                                               CAP-08390  0.1uF
+1   10k       10KOHM-0603-1/10W-1%  0603                 R2     10kΩ resistor                                           RES-00824  10k  
+2   2.2k      2.2KOHM-0603-1/10W-1% 0603                 R4, R5 2.2kΩ resistor                                          RES-08272  2.2k 
+1   LSM6DS3   LSM6DS3DOT_INDICATION LGA14L_DOT_INDICATOR U1                                                             IC-12969        
+1   RES-07859 INDUCTOR30OHM,1.8A    0603                 L1     Inductors                                               RES-07859       
+1   VL53L1X   VL53L1XSMD            VL53L1X              U2     STMicroelectronics VL53L1X - 400 cm IR Laser ToF Sensor IC-13960        
