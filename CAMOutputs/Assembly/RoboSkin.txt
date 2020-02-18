@@ -1,4 +1,4 @@
-Partlist exported from /home/shivababa/EAGLE/projects/Robo/RoboSkin.sch at 2/17/20 12:14 PM
+Partlist exported from /home/shivababa/EAGLE/projects/Robo/RoboSkin.sch at 2/18/20 9:55 AM
 
 Qty Value     Device                Package              Parts  Description                                             PROD_ID    VALUE
 1             QWIIC_CONNECTORJS-1MM 1X04_1MM_RA          J4     SparkFun I2C Standard Qwiic Connector                   CONN-13694      
