@@ -1,6 +1,10 @@
 # Robo-Skin Circuit Schematics
 
+Below is the schematic file:
 
+![](RoboSkin Schematic.png)
+
+Below is the Board file:
 
 ![](RoBoSkin.png)
 
