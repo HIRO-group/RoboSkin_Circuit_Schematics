@@ -2,7 +2,7 @@
 
 Below is the schematic file:
 
-![](RoboSkin Schematic.png)
+![](RoboSkin%20Schematic.png)
 
 Below is the Board file:
 
