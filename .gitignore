@@ -1,3 +1,4 @@
 *.job
 *.pro
 .git/
+eagle.epf
