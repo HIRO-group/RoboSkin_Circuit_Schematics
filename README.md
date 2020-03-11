@@ -2,11 +2,11 @@
 
 Below is the schematic file:
 
-![](RoboSkin%20Schematic.png)
+![](circuit-sch.png)
 
 Below is the Board file:
 
-![](RoBoSkin.png)
+![](circuit-brd.png)
 
 The gerber files will be in the CamOutput folder. The .sch file is the eagle schematics and .brd is the board file. 
 
