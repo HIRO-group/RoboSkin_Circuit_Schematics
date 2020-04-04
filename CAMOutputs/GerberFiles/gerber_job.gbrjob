@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-03-12T20:35:19Z",
+        "CreationDate": "2020-04-04T02:57:49Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -17,8 +17,8 @@
         },
         "Owner": "Krishna Kodur <kodur.chaitanya@colorado.edu>",
         "Size": {
-            "X": 100,
-            "Y": 80
+            "X": 36.5,
+            "Y": 26.66
         }
     }
 }

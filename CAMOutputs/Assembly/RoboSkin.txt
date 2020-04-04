@@ -1,4 +1,4 @@
-Partlist exported from /home/shivababa/EAGLE/projects/RoboSkin_Circuit_Schematics/RoboSkin.sch at 3/12/20 2:35 PM
+Partlist exported from /home/shivababa/EAGLE/projects/RoboSkin_Circuit_Schematics/RoboSkin.sch at 4/3/20 8:57 PM
 
 Qty Value                 Device                Package              Parts  Description                                             MF MPN OC_FARNELL OC_NEWARK POPULARITY PROD_ID   VALUE
 1                         MA04-1                MA04-1               SV1    PIN HEADER                                                     unknown    unknown   41                        
