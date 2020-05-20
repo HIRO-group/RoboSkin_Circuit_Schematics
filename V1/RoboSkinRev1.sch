@@ -83,7 +83,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -194,18 +197,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="AXIAL-0.1">
-<description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
-&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
-<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
-<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.143" size="0.6096" layer="21" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
 <package name="AXIAL-0.1-KIT">
 <description>&lt;h3&gt;AXIAL-0.1-KIT&lt;/h3&gt;
 &lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;
@@ -264,6 +255,51 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-3.81" y="0.447" curve="-90"/>
 <vertex x="-3.3681" y="-0.0101" curve="-90.012967"/>
 </polygon>
+</package>
+<package name="AXIAL-0.1">
+<description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
+<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -444,6 +480,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="RES-00824"/>
 <attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/16W-1%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14241"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14241" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -686,7 +746,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </package>
 </packages>
 <symbols>
-<symbol name="CAP">
+<symbol name="CAP@1">
 <wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
 <text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
@@ -702,7 +762,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
+<gate name="G$1" symbol="CAP@1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-0402-16V-10%" package="0402">
@@ -773,6 +833,30 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CAP-12416" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-6.3V-10%-X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14993" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-10V-10%-X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-15083" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
 </technologies>
@@ -868,15 +952,15 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <smd name="1" x="-1.175" y="0.75" dx="0.45" dy="0.25" layer="1" rot="R180"/>
 <smd name="2" x="-1.175" y="0.25" dx="0.45" dy="0.25" layer="1" rot="R180"/>
 <smd name="3" x="-1.175" y="-0.25" dx="0.45" dy="0.25" layer="1" rot="R180"/>
-<smd name="4" x="-1.175" y="-0.75" dx="0" dy="0" layer="1" rot="R180"/>
+<smd name="4" x="-1.175" y="-0.75" dx="0.45" dy="0.25" layer="1" rot="R180"/>
 <smd name="5" x="-0.5" y="-0.925" dx="0.45" dy="0.25" layer="1" rot="R90"/>
 <smd name="6" x="0" y="-0.925" dx="0.45" dy="0.25" layer="1" rot="R90"/>
 <smd name="7" x="0.5" y="-0.925" dx="0.45" dy="0.25" layer="1" rot="R90"/>
 <smd name="8" x="1.175" y="-0.75" dx="0.45" dy="0.25" layer="1" rot="R180"/>
-<smd name="9" x="1.175" y="-0.25" dx="0" dy="0" layer="1" rot="R180"/>
-<smd name="10" x="1.175" y="0.25" dx="0" dy="0" layer="1" rot="R180"/>
-<smd name="11" x="1.175" y="0.75" dx="0" dy="0" layer="1" rot="R180"/>
-<smd name="12" x="0.5" y="0.925" dx="0" dy="0" layer="1" rot="R90"/>
+<smd name="9" x="1.175" y="-0.25" dx="0.45" dy="0.25" layer="1" rot="R180"/>
+<smd name="10" x="1.175" y="0.25" dx="0.45" dy="0.25" layer="1" rot="R180"/>
+<smd name="11" x="1.175" y="0.75" dx="0.45" dy="0.25" layer="1" rot="R180"/>
+<smd name="12" x="0.5" y="0.925" dx="0.45" dy="0.25" layer="1" rot="R90"/>
 <smd name="13" x="0" y="0.925" dx="0.45" dy="0.25" layer="1" rot="R90"/>
 <smd name="14" x="-0.5" y="0.925" dx="0.45" dy="0.25" layer="1" rot="R90"/>
 <text x="-2.5" y="1.8" size="1" layer="27" font="vector" ratio="15">&gt;Value</text>
@@ -1950,7 +2034,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
-<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
