@@ -3396,18 +3396,18 @@ Op. Temp: -40~85°C</text>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
 <packages>
 </packages>
 <symbols>
-<symbol name="GND">
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GND" prefix="GND">
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
@@ -3646,18 +3646,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="AXIAL-0.1">
-<description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
-&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
-<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
-<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.143" size="0.6096" layer="21" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
 <package name="AXIAL-0.1-KIT">
 <description>&lt;h3&gt;AXIAL-0.1-KIT&lt;/h3&gt;
 &lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;
@@ -3733,6 +3721,51 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="AXIAL-0.1">
+<description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
+<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -3913,6 +3946,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="RES-00824"/>
 <attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/16W-1%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14241"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14241" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4155,7 +4212,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </package>
 </packages>
 <symbols>
-<symbol name="CAP@1">
+<symbol name="CAP">
 <wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
 <text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
@@ -4171,7 +4228,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="CAP@1" x="0" y="0"/>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-0402-16V-10%" package="0402">
@@ -4259,6 +4316,30 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </technologies>
 </device>
 <device name="-0402-10V-10%-X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-15083" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-6.3V-10%-X7R" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14993" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-10V-10%-X7R" package="0402-TIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4641,17 +4722,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$39" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="X2" library="microbuilder" deviceset="ESP-12S" device="" value="ESP-12"/>
 <part name="U$2" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
 <part name="U$4" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
 <part name="U$5" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="4.7K"/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R9" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
 <part name="U$8" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="SW2" library="microbuilder" deviceset="SWITCH_TACT_SMT" device="4.6X2.8" value="KMR2"/>
-<part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D3" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="RED"/>
 <part name="U$14" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="1K"/>
@@ -4670,7 +4751,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q2" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="mmbt2222"/>
 <part name="R7" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
 <part name="R11" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="1K"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$24" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="D1" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="RED"/>
 <part name="U$25" library="microbuilder" deviceset="3.3V" device=""/>
@@ -4700,7 +4781,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="43.18" y="170.18" size="1.778" layer="94">POWER AND FILTERING</text>
+<text x="7.62" y="175.26" size="1.778" layer="94">POWER AND FILTERING</text>
 <wire x1="0" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="111.76" y1="121.92" x2="111.76" y2="180.34" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="142.24" y1="0" x2="142.24" y2="53.34" width="0.1524" layer="94" style="shortdash"/>
